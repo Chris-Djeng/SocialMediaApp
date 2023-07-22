@@ -10,7 +10,7 @@ const client = new ApolloClient({
     uri: 'http://localhost:5000',
     cache: new InMemoryCache()
 });
-
+// assigns server
 export default(
     <ApolloProvider client = {client}>
         <App />
